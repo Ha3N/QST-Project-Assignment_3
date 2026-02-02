@@ -1,5 +1,3 @@
-Here is a professional summary of your current work, structured for a report or `README.md`.
-
 ### **Project Summary: Quantum State Tomography via Classical Shadows**
 
 #### **1. Method**
@@ -17,4 +15,5 @@ This project implements **Quantum State Tomography (QST)** using the **Classical
 * **Noise Robustness Analysis:** Introduce quantum noise models (e.g., depolarizing noise, thermal relaxation) to the simulator to evaluate the resilience of the Classical Shadows estimator under realistic hardware conditions.
 * **Scalability Benchmarking:** Extend the experiments to higher qubit counts () to empirically map the scaling relationship between system size, required sample complexity (number of shadows), and reconstruction fidelity.
 * **Observables vs. Full State:** Shift focus from full density matrix reconstruction to predicting properties (expectation values of specific observables) to fully leverage the logarithmic scaling advantage of Classical Shadows.
+
 * **Machine Learning Integration:** Compare the classical shadow reconstruction fidelity against a Neural Network-based tomography approach (NN-QST) to assess potential improvements in sample efficiency.
